@@ -4,3 +4,40 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  float: left;
+}
+
+header .right {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header .user {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .user li {
+  font-size: 18px;
+  padding: 0 4px;
+}
+
+nav {
+  background-color: #988574;
+}
